@@ -1,0 +1,58 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    background-color: yellow;
+}
+.navigation{
+    margin-top : 100px; 
+}
+
+.navigation ul{
+    width:36%;
+    margin:2px auto;
+    padding: 10px 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}   
+
+.navigation ul li{
+    font-size:25px;
+    text-decoration: none;
+    display: inline-block;
+    margin:0px;
+    margin-right:20px;
+}
+.navigation ul li:last-child{
+    margin-right:0px;   
+}
+
+.introtext{
+    text-align: center;
+    margin:0px auto;
+    margin-top : 50px;
+}
+
+.main button{
+    display: block;
+    font-size:20px;
+    padding:10px;
+    margin:20px auto;
+    background: orangered;
+    border:0px;
+    box-shadow: 0px 0px 5px 2px orangered;
+}
+
+
+/*helper css */
+.width-100{
+    width: 100%;
+}
+.font50{
+    font-size: 60px;
+}
+.margintop30{
+    margin-top:10px;
+}
